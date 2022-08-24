@@ -779,10 +779,14 @@ portBASE_TYPE ledModeCommand(int8_t *pcWriteBuffer, size_t xWriteBufferLen,
 	);
 	if (!strcmp((char*) pcParameterString1, "on")
 			|| !strcmp((char*) pcParameterString1, "ON"))
+
 		SwitchindMode = 1;
+
 	else if (!strcmp((char*) pcParameterString1, "off")
 			|| !strcmp((char*) pcParameterString1, "OFF"))
+
 		SwitchindMode = 0;
+
 
 	/* Respond to the command */
 	if (SwitchindMode) {
