@@ -1,6 +1,6 @@
 Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o: \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c \
+ D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../../Thirdparty/CMSIS/STM32F0xx/Include/core_cmFunc.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS.h \
  ../../BOS/FreeRTOSConfig.h \
@@ -19,7 +19,7 @@ Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o: \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/event_groups.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/timers.h
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 
 ../../Thirdparty/CMSIS/STM32F0xx/Include/core_cmFunc.h:
 

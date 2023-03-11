@@ -1,5 +1,5 @@
 Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.o: \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.c \
+ D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.c \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS.h \
  ../../BOS/FreeRTOSConfig.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/projdefs.h \

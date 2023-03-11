@@ -1,6 +1,6 @@
-BOS/BOS_dma.o: C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_dma.c \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS.h \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_MsgCodes.h \
+BOS/BOS_dma.o: D:/Hexabitz\ release/H0FR6x/BOS/BOS_dma.c \
+ D:/Hexabitz\ release/H0FR6x/BOS/BOS.h \
+ D:/Hexabitz\ release/H0FR6x/BOS/BOS_MsgCodes.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../../H0FR6/stm32f0xx_hal_conf.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
@@ -53,18 +53,17 @@ BOS/BOS_dma.o: C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_dma.c \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/event_groups.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/timers.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS_CLI.h \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_utils.h \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_messaging.h \
- ../../H0FR6/H0FR6.h ../../BOS/BOS.h ../../H0FR6/H0FR6_MemoryMap.h \
- ../../H0FR6/H0FR6_uart.h ../../H0FR6/H0FR6_gpio.h \
- ../../H0FR6/H0FR6_dma.h ../../H0FR6/H0FR6_adc.h \
+ D:/Hexabitz\ release/H0FR6x/BOS/BOS_utils.h \
+ D:/Hexabitz\ release/H0FR6x/BOS/BOS_messaging.h ../../H0FR6/H0FR6.h \
+ ../../BOS/BOS.h ../../H0FR6/H0FR6_MemoryMap.h ../../H0FR6/H0FR6_uart.h \
+ ../../H0FR6/H0FR6_gpio.h ../../H0FR6/H0FR6_dma.h ../../H0FR6/H0FR6_adc.h \
  ../../H0FR6/H0FR6_eeprom.h ../../H0FR6/H0FR6_inputs.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_DMA.h
+ D:/Hexabitz\ release/H0FR6x/BOS/BOS_DMA.h
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS.h:
+D:/Hexabitz\ release/H0FR6x/BOS/BOS.h:
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_MsgCodes.h:
+D:/Hexabitz\ release/H0FR6x/BOS/BOS_MsgCodes.h:
 
 ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 
@@ -170,9 +169,9 @@ C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_MsgCodes.h:
 
 ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS_CLI.h:
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_utils.h:
+D:/Hexabitz\ release/H0FR6x/BOS/BOS_utils.h:
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_messaging.h:
+D:/Hexabitz\ release/H0FR6x/BOS/BOS_messaging.h:
 
 ../../H0FR6/H0FR6.h:
 
@@ -194,4 +193,4 @@ C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_messaging.h:
 
 ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h:
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/BOS/BOS_DMA.h:
+D:/Hexabitz\ release/H0FR6x/BOS/BOS_DMA.h:

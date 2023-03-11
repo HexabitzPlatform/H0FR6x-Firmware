@@ -61,8 +61,8 @@ all:
 main-build: H0FR6x.elf secondary-outputs
 
 # Tool invocations
-H0FR6x.elf: $(OBJS) $(USER_OBJS) C:\Users\ASUS\Documents\H0FR6x-Firmware\STM32CubeIDE\STM32F091CBUX_FLASH.ld
-	arm-none-eabi-gcc -o "H0FR6x.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\ASUS\Documents\H0FR6x-Firmware\STM32CubeIDE\STM32F091CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H0FR6x.map" -Wl,--gc-sections -static  -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+H0FR6x.elf: $(OBJS) $(USER_OBJS) D:\Hexabitz\ release\H0FR6x\STM32CubeIDE\STM32F091CBUX_FLASH.ld
+	arm-none-eabi-gcc -o "H0FR6x.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"D:\Hexabitz release\H0FR6x\STM32CubeIDE\STM32F091CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H0FR6x.map" -Wl,--gc-sections -static  -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

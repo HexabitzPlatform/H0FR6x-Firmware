@@ -1,7 +1,6 @@
-H0FR6/H0FR6_adc.o: \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/H0FR6/H0FR6_adc.c \
- C:/Users/ASUS/Documents/H0FR6x-Firmware/H0FR6/H0FR6_adc.h \
- ../../BOS/BOS.h ../../BOS/BOS_MsgCodes.h \
+H0FR6/H0FR6_adc.o: D:/Hexabitz\ release/H0FR6x/H0FR6/H0FR6_adc.c \
+ D:/Hexabitz\ release/H0FR6x/H0FR6/H0FR6_adc.h ../../BOS/BOS.h \
+ ../../BOS/BOS_MsgCodes.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../../H0FR6/stm32f0xx_hal_conf.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
@@ -62,7 +61,7 @@ H0FR6/H0FR6_adc.o: \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h \
  ../../BOS/BOS_DMA.h
 
-C:/Users/ASUS/Documents/H0FR6x-Firmware/H0FR6/H0FR6_adc.h:
+D:/Hexabitz\ release/H0FR6x/H0FR6/H0FR6_adc.h:
 
 ../../BOS/BOS.h:
 
