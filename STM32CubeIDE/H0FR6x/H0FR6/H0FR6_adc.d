@@ -1,5 +1,5 @@
-H0FR6/H0FR6_adc.o: F:/HDD/Hexabiz_G0/H0FR6/H0FR6/H0FR6_adc.c \
- F:/HDD/Hexabiz_G0/H0FR6/H0FR6/H0FR6_adc.h ../../BOS/BOS.h \
+H0FR6/H0FR6_adc.o: D:/Hexabitz\ release/H0FR6x/H0FR6/H0FR6_adc.c \
+ D:/Hexabitz\ release/H0FR6x/H0FR6/H0FR6_adc.h ../../BOS/BOS.h \
  ../../BOS/BOS_MsgCodes.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../../H0FR6/stm32f0xx_hal_conf.h \
@@ -60,7 +60,7 @@ H0FR6/H0FR6_adc.o: F:/HDD/Hexabiz_G0/H0FR6/H0FR6/H0FR6_adc.c \
  ../../H0FR6/H0FR6_eeprom.h ../../H0FR6/H0FR6_inputs.h \
  ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h \
  ../../BOS/BOS_DMA.h
-F:/HDD/Hexabiz_G0/H0FR6/H0FR6/H0FR6_adc.h:
+D:/Hexabitz\ release/H0FR6x/H0FR6/H0FR6_adc.h:
 ../../BOS/BOS.h:
 ../../BOS/BOS_MsgCodes.h:
 ../../Thirdparty/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:

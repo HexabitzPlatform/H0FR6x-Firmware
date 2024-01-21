@@ -1,5 +1,5 @@
 Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.o: \
- F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.c \
+ D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.c \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS.h \
  ../../BOS/FreeRTOSConfig.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/projdefs.h \

@@ -5,13 +5,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.c \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/croutine.c \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.c \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.c \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/queue.c \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/tasks.c \
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/timers.c 
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.c \
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/croutine.c \
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.c \
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.c \
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/queue.c \
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/tasks.c \
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/timers.c 
 
 OBJS += \
 ./Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.o \
@@ -33,19 +33,19 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/FreeRTOS_CLI.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/croutine.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/croutine.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/croutine.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/croutine.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/event_groups.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/list.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/queue.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/queue.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/queue.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/queue.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/tasks.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/tasks.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/tasks.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/tasks.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
-Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/timers.o: F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/timers.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
+Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/timers.o: D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/timers.c Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m0 -std=c99 -g -DUSE_HAL_DRIVER -DDEBUG -DSTM32F091xC -D_module=1 -DH0FR6 -c -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Thirdparty/STM32F0xx_HAL_Driver/Inc -I../../BOS -I../../User -I../../H0FR6 -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS -I../../Thirdparty/CMSIS/STM32F0xx/Include -I../../Thirdparty/CMSIS/STM32F0xx/Device/ST/STM32F0xx/Include -I../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/portable/GCC/ARM_CM0 -O2 -ffunction-sections -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  -mfloat-abi=soft -mthumb -o "$@"
 
 clean: clean-Thirdparty-2f-Middleware-2f-STM32F0xx-2f-FreeRTOS-2f-Source

@@ -70,8 +70,8 @@ all:
 main-build: H0FR6x.elf secondary-outputs
 
 # Tool invocations
-H0FR6x.elf H0FR6x.map: $(OBJS) $(USER_OBJS) F:\HDD\Hexabiz_G0\H0FR6\STM32CubeIDE\STM32F091CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "H0FR6x.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"F:\HDD\Hexabiz_G0\H0FR6\STM32CubeIDE\STM32F091CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H0FR6x.map" -Wl,--gc-sections -static  -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+H0FR6x.elf H0FR6x.map: $(OBJS) $(USER_OBJS) D:\Hexabitz\ release\H0FR6x\STM32CubeIDE\STM32F091CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "H0FR6x.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"D:\Hexabitz release\H0FR6x\STM32CubeIDE\STM32F091CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H0FR6x.map" -Wl,--gc-sections -static  -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

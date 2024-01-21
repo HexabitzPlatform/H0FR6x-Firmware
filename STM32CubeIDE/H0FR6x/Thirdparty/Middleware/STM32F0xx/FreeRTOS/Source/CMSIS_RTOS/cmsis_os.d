@@ -1,6 +1,6 @@
 Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o: \
- F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c \
- F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c \
+ D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../../Thirdparty/CMSIS/STM32F0xx/Include/core_cmFunc.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS.h \
  ../../BOS/FreeRTOSConfig.h \
@@ -18,7 +18,7 @@ Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o: \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/queue.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/event_groups.h \
  ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/timers.h
-F:/HDD/Hexabiz_G0/H0FR6/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
+D:/Hexabitz\ release/H0FR6x/Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../../Thirdparty/CMSIS/STM32F0xx/Include/core_cmFunc.h:
 ../../Thirdparty/Middleware/STM32F0xx/FreeRTOS/Source/include/FreeRTOS.h:
 ../../BOS/FreeRTOSConfig.h:
